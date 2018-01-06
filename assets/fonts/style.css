@@ -1,0 +1,77 @@
+@font-face {
+	font-family: 'da-icons';
+	src:url('fonts/da-icons.eot');
+	src:url('fonts/da-icons.eot?#iefix') format('embedded-opentype'),
+		url('fonts/da-icons.svg#da-icons') format('svg'),
+		url('fonts/da-icons.woff') format('woff'),
+		url('fonts/da-icons.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'da-icons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="da-icon-"]:before {
+*/
+.da-icon-locked:before, .da-icon-arrow-right:before, .da-icon-search:before, .da-icon-untitled:before, .da-icon-untitled-2:before, .da-icon-untitled-3:before, .da-icon-untitled-4:before, .da-icon-untitled-5:before, .da-icon-untitled-6:before, .da-icon-arrow-left:before, .da-icon-arrow-up:before, .da-icon-arrow-down:before, .da-icon-glyph-open:before, .da-icon-untitled-7:before {
+	font-family: 'da-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.da-icon-locked:before {
+	content: "\e000";
+}
+.da-icon-arrow-right:before {
+	content: "\e001";
+}
+.da-icon-search:before {
+	content: "\e002";
+}
+.da-icon-untitled:before {
+	content: "\e003";
+}
+.da-icon-untitled-2:before {
+	content: "\e004";
+}
+.da-icon-untitled-3:before {
+	content: "\e006";
+}
+.da-icon-untitled-4:before {
+	content: "\e007";
+}
+.da-icon-untitled-5:before {
+	content: "\e008";
+}
+.da-icon-untitled-6:before {
+	content: "\e009";
+}
+.da-icon-arrow-left:before {
+	content: "\e00b";
+}
+.da-icon-arrow-up:before {
+	content: "\e00c";
+}
+.da-icon-arrow-down:before {
+	content: "\e00d";
+}
+.da-icon-glyph-open:before {
+	content: "\e00e";
+}
+.da-icon-untitled-7:before {
+	content: "\e00f";
+}
